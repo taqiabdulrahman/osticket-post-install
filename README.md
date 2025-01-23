@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial shows you what to do post install of the Open Source Ticketing Software osTicket.<br />
 
 
 <!-- <h2>Video Demonstration</h2>
@@ -12,13 +12,13 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>The Operating System I Used</h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (Version 21H2)
 
 <h2>Post-Install Configuration Objectives</h2>
 
@@ -35,7 +35,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Roles</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Roles.
+  First Click on Admin Panel then click on Agents then click on Roles.
 </p>
 <p>
   Supreme Admin:
@@ -52,7 +52,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Departments</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Departments.
+  First Click on Admin Panel then click on Agents then click on Departments.
 </p>
 <p>
   System Administrators:
@@ -66,10 +66,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Teams</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Teams.
+  First Click on Admin Panel then click on Agents then click on Teams.
 </p>
 <p>
-  Level II Support:
+  Level 2 Support:
 </p>
 <p>
   <img src="https://i.imgur.com/BnPrcDH.png" height="75%" width="100%" alt="Level II Support"/>
@@ -79,7 +79,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Allow anyone to create ticket</h3>
 <br />
 <p>
-  Admin Panel -> Settings -> User Settings.
+  First Click on Admin Panel then click on Settings then click on User Settings.
 </p>
 <p>
   Make sure "Require registration and login to create tickets" is not selected:
@@ -92,7 +92,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Agents (workers)</h3>
 <br />
 <p>
-  Admin Panel -> Agents -> Add New.
+  First Click on Admin Panel then click on Agents then click on Add New.
 </p>
 <p>
   Jane Doe:
@@ -108,7 +108,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Users (customers)</h3>
 <br />
 <p>
-  Admin Panel -> Users -> Add New.
+  First Click on Admin Panel then click on Users then click on Add New.
 </p>
 <p>
   Ken User:
@@ -122,7 +122,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure SLA</h3>
 <br />
 <p>
-  Admin Panel -> Manage -> SLA.
+  First Click on Admin Panel then click on Manage then click on SLA.
 </p>
 <p>
   Sev-A (1 hour, 24/7).
@@ -143,7 +143,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h3 align="center">Configure Help Topics</h3>
 <br />
 <p>
-  Admin Panel -> Manage -> Help Topics.
+  First Click on Admin Panel then click on Manage then click on Help Topics.
 </p>
 <p>
   Business Critical Outage.
@@ -166,6 +166,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 <br />
 <p>
-  This now fully configures our osTicket. I hope this guide was able to help clarify and assist you in setting up your osTicket. It is recommended to practice triaging and solving tickets.
+  This now fully sets up our osTicket. I hope this guide was able to help clarify and assist you in setting up your osTicket. It is recommended to practice triaging and solving tickets to get a proper feel of how the enviroment of doing this works.
 </p>
 <p>
